@@ -1,0 +1,68 @@
+
+body{
+	font-family: font-family: 'EB Garamond', serif;
+	text-decoration:none;
+	font-size:11pt; 
+}
+/*Estilos del login*/
+.login{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/fondo1.png');
+    text-decoration: none;
+}
+.row{
+	justify-content: center;
+}
+.principal-login{
+	display: flex;
+    flex-direction: column;
+    height: ;
+    border: 0px solid rgba(0,0,0,0.3);
+    padding: 1rem 3rem;
+     box-shadow: -7px 14px 20px 4px #615f5f;
+    height: 450px;
+    background: white;
+}
+.cab-int{
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    /*padding: 0px 3rem;
+    background-image: url(../imagen/logo.svg);
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-repeat: no-repeat;*/
+}
+.formulario-login{
+	flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 15%;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 3rem;
+    outline: 0;
+}
+.formulario-login #contrasena,
+.formulario-login #usuario{
+	height: 40px; 
+    padding: .5rem;
+    border: 0px;
+    border-bottom: 3px solid rgba(0,0,0,0.3);
+    background: transparent;
+    font-size: 16pt;
+    outline: 0;
+}
+.boton{
+	height: 45px;
+    background: #354E6D;
+ 
+    font-size: 16pt;
+    color: white;
+}
+/*Estipos para tipod de usuario*/
